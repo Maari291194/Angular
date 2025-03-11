@@ -1,0 +1,61 @@
+/* Page Background */
+body {
+    background-color: #b0b0b0; /* Soft Gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Centered Container */
+  .container {
+    background-color: #A0A0A0; /* Slightly darker gray */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-width: 350px;
+  }
+  
+  /* Number Display */
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styling */
+  button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    min-width: 120px;
+    margin: 10px;
+  }
+  
+  /* Individual Button Colors */
+  button:nth-child(1) { background-color: #007bff; color: white; } /* Blue */
+  button:nth-child(2) { background-color: #28a745; color: white; } /* Green */
+  button:nth-child(3) { background-color: #E0E0E0; color: black; } /* Light Gray */
+  button:nth-child(4) { background-color: #dc3545; color: white; } /* Red */
+  
+  /* Hover Effects */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Disabled Button Styling */
+  button:disabled {
+    background-color: #C0C0C0 !important;
+    color: #666 !important;
+    cursor: not-allowed !important;
+    box-shadow: none;
+    transform: none;
+  }
+  
